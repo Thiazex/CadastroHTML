@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro</title>
+    <link href='style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<form style="margin: 0px auto; width:50%">
+    <fieldset style="border-radius: 3px; width: 30%" >
+ 
+    <header>
+        <h1>Cadastro </h1>
+    </header>
+    Nome: <br><input type="text" placeholder="Insira seu nome"> <br>
+    CPF:  <br><input type="text" placeholder="Insira seu cpf"> <br>
+    Email: <br><input type="email" placeholder="Insira seu Email"> <br>
+    Nascimento:<br> <input type="date"> <br>
+    Idade: <input min="18" max="100" type="range" list="tickmarks">
+    
+    <datalist id="tickmarks">
+        <option value="18" label="18%">
+        <option value="100" label="100%">
+       
+     </datalist>
+    
+    Opnião: <br><textarea cols = "20" rows="5" placeholder=""> </textarea><br>
+
+    <button>Ok</button>
+    <button>Cancelar</button>
+  
+    </fieldset>
+    
+</form>    
+</body>
+</html>
